@@ -32,7 +32,7 @@ const CakeStats = () => {
   const cakeSupply = getBalanceNumber(circSupply);
   const marketCap = eggPrice.times(circSupply);
 
-  let DinoPerBlock = 0;
+  let DinoPerBlock = 1;
   if(farms && farms[0] && farms[0].DinoPerBlock){
     DinoPerBlock = new BigNumber(farms[0].DinoPerBlock).div(new BigNumber(10).pow(18)).toNumber();
   }
