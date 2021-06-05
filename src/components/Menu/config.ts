@@ -81,13 +81,13 @@ const config: MenuEntry[] = [
       {
         label: 'twitter',
         href: 'https://dinosaurfinance.medium.com/welcome-in-defi-jungle-b7630bc3923e',
-      }
+      },
       {
         label: 'telegram',
         href: 'https://t.me/dinosaurfinance',
       }
     ]
-  }
+  },
   {
     label: 'Audit (SOON)',
     icon: 'AuditIcon',
