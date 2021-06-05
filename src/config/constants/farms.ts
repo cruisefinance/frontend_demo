@@ -176,6 +176,22 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
+  {
+    pid: 8,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'DAI',
+    decimal: 18,
+    lpAddresses: {
+      137: '0xf04adbf75cdfc5ed26eea4bbbb991db002036bdd'
+    },
+    tokenSymbol: 'DAI',
+    tokenAddresses: {
+      137: '0x8f3cf7ad23cd3cadbd9735aff958023239c6a063'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
 
 
 
