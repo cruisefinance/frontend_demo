@@ -64,23 +64,38 @@ const farms: FarmConfig[] = [
   //   quoteTokenAdresses: contracts.busd,
   // },
   // {
-  //   pid: 12,
+  //   pid: 2,
   //   risk: 5,
   //   isTokenOnly: true,
-  //   lpSymbol: 'EGG',
+  //   lpSymbol: 'DINO',
   //   lpAddresses: {
   //     97: '',
-  //     56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // EGG-BUSD LP
+  //     56: '0x09833c4fbd1d28971b89a84fed3e8c16e45dea7d', 
   //   },
-  //   tokenSymbol: 'EGG',
+  //   tokenSymbol: 'DINO',
   //   tokenAddresses: {
   //     97: '',
-  //     56: '0xf952fc3ca7325cc27d15885d37117676d25bfda6',
+  //     56: '0xad04791c59547ccd826a164ffb9061cf12b93fd4',
   //   },
   //   quoteTokenSymbol: QuoteToken.BUSD,
   //   quoteTokenAdresses: contracts.busd,
   // },
-
+  {
+    pid: 4,
+    risk: 5,
+    isTokenOnly: true,
+    lpSymbol: 'DINO',
+    decimal: 18,
+    lpAddresses: {
+      137: '0x09833c4fbd1d28971b89a84fed3e8c16e45dea7d'
+    },
+    tokenSymbol: 'DINO',
+    tokenAddresses: {
+      137: '0xad04791c59547ccd826a164ffb9061cf12b93fd4'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
 
 
 
