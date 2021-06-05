@@ -128,6 +128,23 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
+  {
+    pid: 5,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'WBTC',
+    decimal: 6,
+    lpAddresses: {
+      137: '0xf6a637525402643b0654a54bead2cb9a83c8b498'
+    },
+    tokenSymbol: 'WBTC',
+    tokenAddresses: {
+      137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+
 
 
 
