@@ -61,18 +61,18 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/PolySwanFinance',
+        href: 'https://github.com/DinosaurFinance',
       },
       {
         label: 'Docs',
-        href: 'https://polyswan-finance.gitbook.io/polyswan-finance/',
+        href: 'https://dinosaur-frontend.vercel.app/',
       },
     ],
   },
   {
     label: 'Audit (SOON)',
     icon: 'AuditIcon',
-    href: 'https://polyswan.finance/',
+    href: 'https://dinosaur-frontend.vercel.app/',
   },
 ]
 

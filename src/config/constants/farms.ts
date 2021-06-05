@@ -5,14 +5,14 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'SWAN-USDC LP',
+    lpSymbol: 'DINO-USDC LP',
     decimal: 18,
     lpAddresses: {
-      137: '0x007AFE958D0A26BE92E8325A3b6fCc733AB81e09',
+      137: '0x09833c4fbd1d28971b89a84fed3e8c16e45dea7d',
     },
-    tokenSymbol: 'SWAN',
+    tokenSymbol: 'DINO',
     tokenAddresses: {
-      137: '0x692ca411d82DeB4A96F8f89E173171b4Af83Badf',
+      137: '0xad04791c59547ccd826a164ffb9061cf12b93fd4',
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -20,10 +20,10 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'SWAN-WMATIC LP',
+    lpSymbol: 'DINO-WMATIC LP',
     decimal: 18,
     lpAddresses: {
-      137: '0x770Db375516C814D76F7D87F21Ca023EB9bb02A4',
+      137: '0xdf401ad81944e68188334966f944a3b0c05cc3f3',
     },
     tokenSymbol: 'WMATIC',
     tokenAddresses: {
@@ -31,38 +31,6 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
-  },
-
-  {
-    pid: 2,
-    risk: 5,
-    lpSymbol: 'WMATIC-USDC LP',
-    decimal: 18,
-    lpAddresses: {
-      137: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827',
-    },
-    tokenSymbol: 'WMATIC',
-    tokenAddresses: {
-      137: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
-  },
-
-  {
-    pid: 3,
-    risk: 5,
-    lpSymbol: 'WETH-USDC LP',
-    decimal: 18,
-    lpAddresses: {
-      137: '0x853ee4b2a13f8a742d64c8f088be7ba2131f670d',
-    },
-    tokenSymbol: 'WETH',
-    tokenAddresses: {
-      137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
   },
 
   // {
@@ -113,24 +81,24 @@ const farms: FarmConfig[] = [
   //   quoteTokenAdresses: contracts.busd,
   // },
   {
-    pid: 4,
+    pid: 2,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'SWAN',
+    lpSymbol: 'DINO',
     decimal: 18,
     lpAddresses: {
-      137: '0x007AFE958D0A26BE92E8325A3b6fCc733AB81e09'
+      137: '0x09833c4fbd1d28971b89a84fed3e8c16e45dea7d'
     },
-    tokenSymbol: 'SWAN',
+    tokenSymbol: 'DINO',
     tokenAddresses: {
-      137: '0x692ca411d82DeB4A96F8f89E173171b4Af83Badf'
+      137: '0xad04791c59547ccd826a164ffb9061cf12b93fd4'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
 
   {
-    pid: 5,
+    pid: 3,
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'WMATIC',
@@ -147,7 +115,7 @@ const farms: FarmConfig[] = [
   },
 
   {
-    pid: 6,
+    pid: 4,
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'QUICK',
@@ -164,7 +132,7 @@ const farms: FarmConfig[] = [
   },
 
   {
-    pid: 7,
+    pid: 5,
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'WETH',
@@ -181,7 +149,7 @@ const farms: FarmConfig[] = [
   },
 
   {
-    pid: 8,
+    pid: 6,
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'WBTC',
@@ -199,7 +167,7 @@ const farms: FarmConfig[] = [
 
 
   {
-    pid: 9,
+    pid: 7,
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'AAVE',
@@ -215,27 +183,9 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.usdc,
   },
 
-  {
-    pid: 10,
-    risk: 1,
-    isTokenOnly: true,
-    lpSymbol: 'USDT',
-    decimal: 6,
-    lpAddresses: {
-      137: '0x2cf7252e74036d1da831d11089d326296e64a728'
-    },
-    tokenSymbol: 'USDT',
-    tokenAddresses: {
-      137: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f'
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
-  },
-
-
 
   {
-    pid: 11,
+    pid: 8,
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'DAI',
