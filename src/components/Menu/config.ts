@@ -47,7 +47,7 @@ const config: MenuEntry[] = [
     },
     {
     label: 'Eggs Incubator (SOON)',
-    icon: 'NftIcon',
+    icon: 'MoonIcon',
     href: '/nft',
     },
   {
