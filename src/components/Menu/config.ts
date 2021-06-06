@@ -42,7 +42,7 @@ const config: MenuEntry[] = [
   // },
     {
     label: "T-Rex's Pantry (SOON)",
-    icon: 'MoonIcon',
+    icon: 'VaultsIcon',
     href: 'https://dinosaur-frontend.vercel.app/'
     },
     {
