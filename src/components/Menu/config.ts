@@ -40,10 +40,11 @@ const config: MenuEntry[] = [
   //   icon: 'TicketIcon',
   //   href: '/lottery',
   // },
+
     {
     label: "T-Rex's Pantry (SOON)",
     icon: 'VaultsIcon',
-    href: '/vaults'
+    href: '/vaults',
     },
     {
     label: 'Eggs Incubator (SOON)',
