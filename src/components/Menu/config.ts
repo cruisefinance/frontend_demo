@@ -41,6 +41,11 @@ const config: MenuEntry[] = [
   //   href: '/lottery',
   // },
     {
+    label: "T-Rex's Pantry (SOON)",
+    icon: 'moonIcon',
+    href: 'https://dinosaur-frontend.vercel.app/'
+    },
+    {
     label: 'Eggs Incubator',
     icon: 'NftIcon',
     href: '/nft',
