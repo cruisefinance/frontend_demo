@@ -46,7 +46,7 @@ const config: MenuEntry[] = [
     href: 'https://dinosaur-frontend.vercel.app/'
     },
     {
-    label: 'Eggs Incubator',
+    label: 'Eggs Incubator (SOON)',
     icon: 'NftIcon',
     href: '/nft',
     },
