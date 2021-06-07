@@ -68,10 +68,6 @@ const config: MenuEntry[] = [
         label: 'RugDoc',
         href: 'https://rugdoc.io/chain/polygon/',
       },
-      {
-        label: 'DappRadar',
-        href: 'https://dappradar.com/polygon/defi/dinosaur-finance'
-      },
     ],
   },
   {
@@ -93,9 +89,9 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Audit (SOON)',
+    label: 'Reviewed Low Risk by RugDoctor',
     icon: 'AuditIcon',
-    href: 'https://dinosaur-frontend.vercel.app/',
+    href: 'https://rugdoc.io/chain/polygon/',
   },
 
 ]
