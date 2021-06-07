@@ -65,8 +65,8 @@ const config: MenuEntry[] = [
         href: 'https://vfat.tools/polygon/dinosaur/',
       },
       {
-        label: 'RugDoc',
-        href: 'https://rugdoc.io/chain/polygon/',
+        label: 'DappRadar',
+        href: 'https://dappradar.com/polygon/defi/dinosaur-finance'
       },
     ],
   },
