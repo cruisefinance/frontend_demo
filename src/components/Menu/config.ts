@@ -60,6 +60,18 @@ const config: MenuEntry[] = [
         label: 'QuickSwap',
         href: 'https://info.quickswap.exchange/token/0xaD04791c59547CCd826A164FFB9061Cf12b93fD4',
       },
+      {
+        label: 'Vfat',
+        href: 'https://vfat.tools/polygon/dinosaur/',
+      },
+      {
+        label: 'RugDoc',
+        href: 'https://rugdoc.io/chain/polygon/',
+      },
+      {
+        label: 'DappRadar',
+        href: 'https://dappradar.com/polygon/defi/dinosaur-finance'
+      },
     ],
   },
   {
